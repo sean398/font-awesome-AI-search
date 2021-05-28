@@ -1,13 +1,13 @@
 //get key value map from font awesome
-const eles = document.querySelectorAll("i.fas");
-const map = [];
-for (let i = 0; i < eles.length; i++) {
-  const key = eles[i].classList[1];
-  let content = window
-    .getComputedStyle(eles[i], "::before")
-    .getPropertyValue("content");
-  ICONMAP[key] = content;
-}
+// const eles = document.querySelectorAll("i.fas");
+// const map = [];
+// for (let i = 0; i < eles.length; i++) {
+//   const key = eles[i].classList[1];
+//   let content = window
+//     .getComputedStyle(eles[i], "::before")
+//     .getPropertyValue("content");
+//   ICONMAP[key] = content;
+// }
 
 export const ICONMAP = {
   "fa-angle-double-down": "",
