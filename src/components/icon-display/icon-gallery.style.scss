@@ -13,3 +13,21 @@
     font-size: 12px;
   }
 }
+
+.icon-gallery-seach {
+  display: flex;
+  justify-content: center;
+  .ant-input-search {
+    input {
+      width: 900px;
+      height: 30px;
+    }
+  }
+  .ant-input-group-addon {
+    button {
+      width: 50px;
+      height: 36px;
+      font-size: 18px;
+    }
+  }
+}
