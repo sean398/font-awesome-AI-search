@@ -1,0 +1,73 @@
+//get key value map from font awesome
+const eles = document.querySelectorAll("i.fas");
+const map = [];
+for (let i = 0; i < eles.length; i++) {
+  const key = eles[i].classList[1];
+  let content = window
+    .getComputedStyle(eles[i], "::before")
+    .getPropertyValue("content");
+  ICONMAP[key] = content;
+}
+
+export const ICONMAP = {
+  "fa-angle-double-down": "",
+  "fa-angle-double-left": "",
+  "fa-angle-double-right": "",
+  "fa-angle-double-up": "",
+  "fa-angle-down": "",
+  "fa-angle-left": "",
+  "fa-angle-right": "",
+  "fa-angle-up": "",
+  "fa-arrow-circle-down": "",
+  "fa-arrow-circle-left": "",
+  "fa-arrow-circle-right": "",
+  "fa-arrow-circle-up": "",
+  "fa-arrow-down": "",
+  "fa-arrow-left": "",
+  "fa-arrow-right": "",
+  "fa-arrow-up": "",
+  "fa-arrows-alt": "",
+  "fa-caret-down": "",
+  "fa-caret-left": "",
+  "fa-caret-right": "",
+  "fa-caret-up": "",
+  "fa-cart-arrow-down": "",
+  "fa-chevron-circle-down": "",
+  "fa-chevron-circle-left": "",
+  "fa-chevron-circle-right": "",
+  "fa-chevron-circle-up": "",
+  "fa-chevron-down": "",
+  "fa-chevron-left": "",
+  "fa-chevron-right": "",
+  "fa-chevron-up": "",
+  "fa-download": "",
+  "fa-history": "",
+  "fa-location-arrow": "",
+  "fa-play": "",
+  "fa-random": "",
+  "fa-recycle": "",
+  "fa-reply": "",
+  "fa-reply-all": "",
+  "fa-retweet": "",
+  "fa-share": "",
+  "fa-share-square": "",
+  "fa-sort": "",
+  "fa-sort-down": "",
+  "fa-sort-up": "",
+  "fa-text-height": "",
+  "fa-text-width": "",
+  "fa-tree": "",
+  "fa-undo": "",
+  "fa-upload": "",
+  "fa-thumbs-down": "",
+  "fa-thumbs-up": "",
+  "fa-comment": "",
+  "fa-comments": "",
+  "fa-quote-left": "",
+  "fa-quote-right": "",
+  "fa-binoculars": "",
+  "fa-fire": "",
+  "fa-map": "",
+  "fa-map-signs": "",
+  "fa-phone": "",
+};

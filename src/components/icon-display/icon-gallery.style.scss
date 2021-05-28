@@ -1,0 +1,15 @@
+.icon-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  li {
+    margin: 15px;
+    width: 200px;
+  }
+  .icon-wrapper {
+    font-size: 50px;
+  }
+  .desc {
+    font-size: 12px;
+  }
+}
