@@ -1,0 +1,90 @@
+{
+  "pipeline": {
+    "id": "aq4l3iya",
+    "name": null,
+    "dataCollectId": "pxbhdgai",
+    "dataCollect": "@pipcook/plugins-image-classification-data-collect",
+    "dataCollectParams": "{\"url\":\"file:///Users/du/Downloads/font-awesome-AI-search/data/imgs/icon.zip\"}",
+    "dataAccessId": "4brm0vsd",
+    "dataAccess": "@pipcook/plugins-pascalvoc-data-access",
+    "dataAccessParams": "{}",
+    "dataProcessId": "34dpu0uz",
+    "dataProcess": "@pipcook/plugins-tfjs-image-classification-process",
+    "dataProcessParams": "{\"resize\":[224,224]}",
+    "datasetProcessId": null,
+    "datasetProcess": null,
+    "datasetProcessParams": "{}",
+    "modelDefineId": "qllhbnp5",
+    "modelDefine": "@pipcook/plugins-tfjs-mobilenet-model-define",
+    "modelDefineParams": "{\"freeze\":false}",
+    "modelLoadId": null,
+    "modelLoad": null,
+    "modelLoadParams": "{}",
+    "modelTrainId": "zx149ncc",
+    "modelTrain": "@pipcook/plugins-image-classification-tfjs-model-train",
+    "modelTrainParams": "{\"batchSize\":64,\"epochs\":12}",
+    "modelEvaluateId": "w4x8npoc",
+    "modelEvaluate": "@pipcook/plugins-image-classification-tfjs-model-evaluate",
+    "modelEvaluateParams": "{}",
+    "createdAt": "2021-06-02T14:23:22.919Z",
+    "updatedAt": "2021-06-02T14:23:22.919Z"
+  },
+  "output": {
+    "id": "36p8jdzk",
+    "pipelineId": "aq4l3iya",
+    "specVersion": "1.3.1",
+    "status": 2,
+    "params": [
+      {
+        "pluginType": "dataCollect",
+        "data": {
+          "url": "file:///Users/du/Downloads/font-awesome-AI-search/data/imgs/icon.zip"
+        }
+      },
+      {
+        "pluginType": "dataAccess",
+        "data": {}
+      },
+      {
+        "pluginType": "dataProcess",
+        "data": {
+          "resize": [
+            224,
+            224
+          ]
+        }
+      },
+      {
+        "pluginType": "datasetProcess",
+        "data": {}
+      },
+      {
+        "pluginType": "modelLoad",
+        "data": {}
+      },
+      {
+        "pluginType": "modelDefine",
+        "data": {
+          "freeze": false
+        }
+      },
+      {
+        "pluginType": "modelTrain",
+        "data": {
+          "batchSize": 64,
+          "epochs": 12
+        }
+      },
+      {
+        "pluginType": "modelEvaluate",
+        "data": {}
+      }
+    ],
+    "currentIndex": -1,
+    "updatedAt": "2021-06-02T14:23:22.956Z",
+    "createdAt": "2021-06-02T14:23:22.956Z",
+    "dataset": "{\"labelMap\":{\"fa-angle-double-up\":0,\"fa-sort-down\":1,\"fa-sort-up\":2,\"fa-reply\":3,\"fa-random\":4,\"fa-comments\":5,\"fa-arrow-circle-up\":6,\"fa-map\":7,\"fa-arrow-left\":8,\"fa-text-height\":9,\"fa-arrow-right\":10,\"fa-thumbs-down\":11,\"fa-upload\":12,\"fa-chevron-left\":13,\"fa-chevron-right\":14,\"fa-chevron-circle-down\":15,\"fa-chevron-down\":16,\"fa-quote-left\":17,\"fa-download\":18,\"fa-angle-double-right\":19,\"fa-arrows-alt\":20,\"fa-chevron-up\":21,\"fa-arrow-up\":22,\"fa-arrow-circle-right\":23,\"fa-tree\":24,\"fa-caret-right\":25,\"fa-chevron-circle-up\":26,\"fa-sort\":27,\"fa-comment\":28,\"fa-recycle\":29,\"fa-reply-all\":30,\"fa-binoculars\":31,\"fa-chevron-circle-left\":32,\"fa-location-arrow\":33,\"fa-share-square\":34,\"fa-history\":35,\"fa-angle-down\":36,\"fa-map-signs\":37,\"fa-chevron-circle-right\":38,\"fa-share\":39,\"fa-thumbs-up\":40,\"fa-arrow-circle-down\":41,\"fa-angle-left\":42,\"fa-play\":43,\"fa-caret-down\":44,\"fa-quote-right\":45,\"fa-caret-up\":46,\"fa-text-width\":47,\"fa-arrow-circle-left\":48,\"fa-angle-double-left\":49,\"fa-cart-arrow-down\":50,\"fa-undo\":51,\"fa-angle-up\":52,\"fa-retweet\":53,\"fa-angle-double-down\":54,\"fa-fire\":55,\"fa-angle-right\":56,\"fa-arrow-down\":57,\"fa-caret-left\":58,\"fa-phone\":59},\"labelArray\":[\"fa-angle-double-up\",\"fa-sort-down\",\"fa-sort-up\",\"fa-reply\",\"fa-random\",\"fa-comments\",\"fa-arrow-circle-up\",\"fa-map\",\"fa-arrow-left\",\"fa-text-height\",\"fa-arrow-right\",\"fa-thumbs-down\",\"fa-upload\",\"fa-chevron-left\",\"fa-chevron-right\",\"fa-chevron-circle-down\",\"fa-chevron-down\",\"fa-quote-left\",\"fa-download\",\"fa-angle-double-right\",\"fa-arrows-alt\",\"fa-chevron-up\",\"fa-arrow-up\",\"fa-arrow-circle-right\",\"fa-tree\",\"fa-caret-right\",\"fa-chevron-circle-up\",\"fa-sort\",\"fa-comment\",\"fa-recycle\",\"fa-reply-all\",\"fa-binoculars\",\"fa-chevron-circle-left\",\"fa-location-arrow\",\"fa-share-square\",\"fa-history\",\"fa-angle-down\",\"fa-map-signs\",\"fa-chevron-circle-right\",\"fa-share\",\"fa-thumbs-up\",\"fa-arrow-circle-down\",\"fa-angle-left\",\"fa-play\",\"fa-caret-down\",\"fa-quote-right\",\"fa-caret-up\",\"fa-text-width\",\"fa-arrow-circle-left\",\"fa-angle-double-left\",\"fa-cart-arrow-down\",\"fa-undo\",\"fa-angle-up\",\"fa-retweet\",\"fa-angle-double-down\",\"fa-fire\",\"fa-angle-right\",\"fa-arrow-down\",\"fa-caret-left\",\"fa-phone\"],\"feature\":{\"shape\":[224,224,3]}}",
+    "evaluateMap": "{\"loss\":2.338722066445784,\"accuracy\":0.375}",
+    "endTime": 1622644025669
+  }
+}
