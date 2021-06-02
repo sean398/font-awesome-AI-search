@@ -1,0 +1,16 @@
+{
+  "name": "output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node boapkg.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pipcook/plugins-tfjs-mobilenet-model-define": "1.1.1",
+    "@pipcook/plugins-tfjs-image-classification-process": "1.1.1"
+  }
+}

@@ -1,0 +1,223 @@
+start loading plugin @pipcook/plugins-image-classification-data-collect
+@pipcook/plugins-image-classification-data-collect plugin is loaded
+unzip and collecting data...
+create annotation file...
+start loading plugin @pipcook/plugins-pascalvoc-data-access
+@pipcook/plugins-pascalvoc-data-access plugin is loaded
+create a result "5ye8wm32" for plugin "@pipcook/plugins-pascalvoc-data-access@1.1.0"
+start loading plugin @pipcook/plugins-tfjs-image-classification-process
+@pipcook/plugins-tfjs-image-classification-process plugin is loaded
+start loading plugin @pipcook/plugins-tfjs-mobilenet-model-define
+@pipcook/plugins-tfjs-mobilenet-model-define plugin is loaded
+create a result "wn1w9jfo" for plugin "@pipcook/plugins-tfjs-mobilenet-model-define@1.1.1"
+start loading plugin @pipcook/plugins-image-classification-tfjs-model-train
+@pipcook/plugins-image-classification-tfjs-model-train plugin is loaded
+Epoch 0/12 start
+Iteration 0/15 result --- loss: 4.448746681213379 accuracy: 0.015625
+Iteration 1/15 result --- loss: 4.183571815490723 accuracy: 0
+Iteration 2/15 result --- loss: 3.9716362953186035 accuracy: 0.046875
+Iteration 3/15 result --- loss: 4.000543594360352 accuracy: 0.046875
+Iteration 4/15 result --- loss: 3.9576621055603027 accuracy: 0.046875
+Iteration 5/15 result --- loss: 3.7260992527008057 accuracy: 0.109375
+Iteration 6/15 result --- loss: 3.8281476497650146 accuracy: 0.0625
+Iteration 7/15 result --- loss: 3.922236204147339 accuracy: 0.0625
+Iteration 8/15 result --- loss: 3.5218393802642822 accuracy: 0.09375
+Iteration 9/15 result --- loss: 3.742121458053589 accuracy: 0.0625
+Iteration 10/15 result --- loss: 3.7123093605041504 accuracy: 0.046875
+Iteration 11/15 result --- loss: 3.383322238922119 accuracy: 0.140625
+Iteration 12/15 result --- loss: 3.566664218902588 accuracy: 0.125
+Iteration 13/15 result --- loss: 3.4328927993774414 accuracy: 0.140625
+Iteration 14/15 result --- loss: 3.337979555130005 accuracy: 0.171875
+Validation Result 0/12 result --- loss: 3.8699139952659607 accuracy: 0.08203125
+Epoch 1/12 start
+Iteration 0/15 result --- loss: 3.3354716300964355 accuracy: 0.12068965286016464
+Iteration 1/15 result --- loss: 2.890235185623169 accuracy: 0.25
+Iteration 2/15 result --- loss: 3.3497774600982666 accuracy: 0.125
+Iteration 3/15 result --- loss: 3.1694393157958984 accuracy: 0.171875
+Iteration 4/15 result --- loss: 3.234443187713623 accuracy: 0.109375
+Iteration 5/15 result --- loss: 3.2676711082458496 accuracy: 0.109375
+Iteration 6/15 result --- loss: 2.8520426750183105 accuracy: 0.25
+Iteration 7/15 result --- loss: 3.132199287414551 accuracy: 0.171875
+Iteration 8/15 result --- loss: 3.1740965843200684 accuracy: 0.15625
+Iteration 9/15 result --- loss: 2.926342487335205 accuracy: 0.140625
+Iteration 10/15 result --- loss: 3.402463912963867 accuracy: 0.078125
+Iteration 11/15 result --- loss: 3.1603598594665527 accuracy: 0.140625
+Iteration 12/15 result --- loss: 2.814326286315918 accuracy: 0.1875
+Iteration 13/15 result --- loss: 3.0314536094665527 accuracy: 0.140625
+Iteration 14/15 result --- loss: 2.806511402130127 accuracy: 0.15625
+Validation Result 1/12 result --- loss: 3.665997862815857 accuracy: 0.12281976826488972
+Epoch 2/12 start
+Iteration 0/15 result --- loss: 2.8086585998535156 accuracy: 0.203125
+Iteration 1/15 result --- loss: 2.682082414627075 accuracy: 0.18644067645072937
+Iteration 2/15 result --- loss: 2.441561222076416 accuracy: 0.28125
+Iteration 3/15 result --- loss: 2.74495267868042 accuracy: 0.15625
+Iteration 4/15 result --- loss: 2.696096420288086 accuracy: 0.1875
+Iteration 5/15 result --- loss: 2.7594614028930664 accuracy: 0.171875
+Iteration 6/15 result --- loss: 2.7036681175231934 accuracy: 0.203125
+Iteration 7/15 result --- loss: 2.4842429161071777 accuracy: 0.25
+Iteration 8/15 result --- loss: 2.719874143600464 accuracy: 0.21875
+Iteration 9/15 result --- loss: 2.838684320449829 accuracy: 0.203125
+Iteration 10/15 result --- loss: 2.3986403942108154 accuracy: 0.234375
+Iteration 11/15 result --- loss: 2.8753464221954346 accuracy: 0.203125
+Iteration 12/15 result --- loss: 2.522084951400757 accuracy: 0.265625
+Iteration 13/15 result --- loss: 2.4020066261291504 accuracy: 0.359375
+Iteration 14/15 result --- loss: 2.453502655029297 accuracy: 0.1875
+Validation Result 2/12 result --- loss: 3.6610905528068542 accuracy: 0.09938226826488972
+Epoch 3/12 start
+Iteration 0/15 result --- loss: 2.356022357940674 accuracy: 0.25
+Iteration 1/15 result --- loss: 2.3528473377227783 accuracy: 0.328125
+Iteration 2/15 result --- loss: 2.2539703845977783 accuracy: 0.33898305892944336
+Iteration 3/15 result --- loss: 2.055759906768799 accuracy: 0.453125
+Iteration 4/15 result --- loss: 2.272799015045166 accuracy: 0.34375
+Iteration 5/15 result --- loss: 2.0226855278015137 accuracy: 0.46875
+Iteration 6/15 result --- loss: 2.412904739379883 accuracy: 0.25
+Iteration 7/15 result --- loss: 2.187377452850342 accuracy: 0.40625
+Iteration 8/15 result --- loss: 2.0084781646728516 accuracy: 0.4375
+Iteration 9/15 result --- loss: 2.247915267944336 accuracy: 0.34375
+Iteration 10/15 result --- loss: 2.1024670600891113 accuracy: 0.421875
+Iteration 11/15 result --- loss: 1.8789854049682617 accuracy: 0.46875
+Iteration 12/15 result --- loss: 2.5386056900024414 accuracy: 0.375
+Iteration 13/15 result --- loss: 2.0031447410583496 accuracy: 0.359375
+Iteration 14/15 result --- loss: 1.900930404663086 accuracy: 0.484375
+Validation Result 3/12 result --- loss: 3.557989478111267 accuracy: 0.11882267519831657
+Epoch 4/12 start
+Iteration 0/15 result --- loss: 1.9863117933273315 accuracy: 0.484375
+Iteration 1/15 result --- loss: 2.0118579864501953 accuracy: 0.375
+Iteration 2/15 result --- loss: 2.031893253326416 accuracy: 0.390625
+Iteration 3/15 result --- loss: 1.8123515844345093 accuracy: 0.4067796468734741
+Iteration 4/15 result --- loss: 1.7533831596374512 accuracy: 0.5
+Iteration 5/15 result --- loss: 1.8998620510101318 accuracy: 0.40625
+Iteration 6/15 result --- loss: 1.714546799659729 accuracy: 0.5
+Iteration 7/15 result --- loss: 2.1171300411224365 accuracy: 0.328125
+Iteration 8/15 result --- loss: 1.85918128490448 accuracy: 0.484375
+Iteration 9/15 result --- loss: 1.6637547016143799 accuracy: 0.5
+Iteration 10/15 result --- loss: 1.8801162242889404 accuracy: 0.40625
+Iteration 11/15 result --- loss: 1.73768150806427 accuracy: 0.515625
+Iteration 12/15 result --- loss: 1.5003433227539062 accuracy: 0.515625
+Iteration 13/15 result --- loss: 2.1379613876342773 accuracy: 0.40625
+Iteration 14/15 result --- loss: 1.6181387901306152 accuracy: 0.546875
+Validation Result 4/12 result --- loss: 3.3567349314689636 accuracy: 0.1577034890651703
+Epoch 5/12 start
+Iteration 0/15 result --- loss: 1.5544160604476929 accuracy: 0.5625
+Iteration 1/15 result --- loss: 1.5509977340698242 accuracy: 0.5625
+Iteration 2/15 result --- loss: 1.7003834247589111 accuracy: 0.484375
+Iteration 3/15 result --- loss: 1.638313889503479 accuracy: 0.5
+Iteration 4/15 result --- loss: 1.5133695602416992 accuracy: 0.508474588394165
+Iteration 5/15 result --- loss: 1.4558227062225342 accuracy: 0.578125
+Iteration 6/15 result --- loss: 1.3485088348388672 accuracy: 0.625
+Iteration 7/15 result --- loss: 1.3211305141448975 accuracy: 0.59375
+Iteration 8/15 result --- loss: 1.7613270282745361 accuracy: 0.4375
+Iteration 9/15 result --- loss: 1.432310700416565 accuracy: 0.609375
+Iteration 10/15 result --- loss: 1.2232108116149902 accuracy: 0.625
+Iteration 11/15 result --- loss: 1.4671525955200195 accuracy: 0.53125
+Iteration 12/15 result --- loss: 1.4355499744415283 accuracy: 0.609375
+Iteration 13/15 result --- loss: 1.2439377307891846 accuracy: 0.6875
+Iteration 14/15 result --- loss: 1.7158995866775513 accuracy: 0.5
+Validation Result 5/12 result --- loss: 3.2070353031158447 accuracy: 0.17578125
+Epoch 6/12 start
+Iteration 0/15 result --- loss: 1.317498803138733 accuracy: 0.671875
+Iteration 1/15 result --- loss: 1.17207670211792 accuracy: 0.671875
+Iteration 2/15 result --- loss: 1.3050673007965088 accuracy: 0.65625
+Iteration 3/15 result --- loss: 1.352750539779663 accuracy: 0.53125
+Iteration 4/15 result --- loss: 1.3512470722198486 accuracy: 0.5625
+Iteration 5/15 result --- loss: 1.1530017852783203 accuracy: 0.6440678238868713
+Iteration 6/15 result --- loss: 1.2152435779571533 accuracy: 0.625
+Iteration 7/15 result --- loss: 1.1292059421539307 accuracy: 0.6875
+Iteration 8/15 result --- loss: 1.1129788160324097 accuracy: 0.671875
+Iteration 9/15 result --- loss: 1.4808608293533325 accuracy: 0.59375
+Iteration 10/15 result --- loss: 1.2085171937942505 accuracy: 0.671875
+Iteration 11/15 result --- loss: 1.0041649341583252 accuracy: 0.6875
+Iteration 12/15 result --- loss: 1.1784672737121582 accuracy: 0.734375
+Iteration 13/15 result --- loss: 1.1832478046417236 accuracy: 0.640625
+Iteration 14/15 result --- loss: 0.9210128784179688 accuracy: 0.75
+Validation Result 6/12 result --- loss: 2.7108184099197388 accuracy: 0.231831394135952
+Epoch 7/12 start
+Iteration 0/15 result --- loss: 1.3349653482437134 accuracy: 0.65625
+Iteration 1/15 result --- loss: 1.0281636714935303 accuracy: 0.6875
+Iteration 2/15 result --- loss: 1.0130667686462402 accuracy: 0.796875
+Iteration 3/15 result --- loss: 1.0525203943252563 accuracy: 0.75
+Iteration 4/15 result --- loss: 1.023284673690796 accuracy: 0.703125
+Iteration 5/15 result --- loss: 1.1695504188537598 accuracy: 0.71875
+Iteration 6/15 result --- loss: 0.8976074457168579 accuracy: 0.7288135886192322
+Iteration 7/15 result --- loss: 0.8851674795150757 accuracy: 0.71875
+Iteration 8/15 result --- loss: 0.8114019632339478 accuracy: 0.796875
+Iteration 9/15 result --- loss: 0.9004788994789124 accuracy: 0.734375
+Iteration 10/15 result --- loss: 1.1439576148986816 accuracy: 0.671875
+Iteration 11/15 result --- loss: 0.9426683187484741 accuracy: 0.78125
+Iteration 12/15 result --- loss: 0.6808964014053345 accuracy: 0.8125
+Iteration 13/15 result --- loss: 0.8614943027496338 accuracy: 0.8125
+Iteration 14/15 result --- loss: 0.9032036066055298 accuracy: 0.78125
+Validation Result 7/12 result --- loss: 2.7363685369491577 accuracy: 0.2981467992067337
+Epoch 8/12 start
+Iteration 0/15 result --- loss: 0.6532714366912842 accuracy: 0.875
+Iteration 1/15 result --- loss: 1.0752902030944824 accuracy: 0.734375
+Iteration 2/15 result --- loss: 0.7526091933250427 accuracy: 0.84375
+Iteration 3/15 result --- loss: 0.7211838960647583 accuracy: 0.796875
+Iteration 4/15 result --- loss: 0.829986572265625 accuracy: 0.796875
+Iteration 5/15 result --- loss: 0.8257821798324585 accuracy: 0.8125
+Iteration 6/15 result --- loss: 0.8205220699310303 accuracy: 0.78125
+Iteration 7/15 result --- loss: 0.6537420749664307 accuracy: 0.8474576473236084
+Iteration 8/15 result --- loss: 0.5964465737342834 accuracy: 0.859375
+Iteration 9/15 result --- loss: 0.6084718704223633 accuracy: 0.890625
+Iteration 10/15 result --- loss: 0.7115280032157898 accuracy: 0.796875
+Iteration 11/15 result --- loss: 0.9271568059921265 accuracy: 0.75
+Iteration 12/15 result --- loss: 0.7308406233787537 accuracy: 0.8125
+Iteration 13/15 result --- loss: 0.44936108589172363 accuracy: 0.90625
+Iteration 14/15 result --- loss: 0.6476001739501953 accuracy: 0.84375
+Validation Result 8/12 result --- loss: 2.7565019130706787 accuracy: 0.294149711728096
+Epoch 9/12 start
+Iteration 0/15 result --- loss: 0.6681430339813232 accuracy: 0.84375
+Iteration 1/15 result --- loss: 0.4327942430973053 accuracy: 0.90625
+Iteration 2/15 result --- loss: 0.7661144733428955 accuracy: 0.8125
+Iteration 3/15 result --- loss: 0.5166158676147461 accuracy: 0.90625
+Iteration 4/15 result --- loss: 0.5250211954116821 accuracy: 0.875
+Iteration 5/15 result --- loss: 0.6280137896537781 accuracy: 0.84375
+Iteration 6/15 result --- loss: 0.5715785622596741 accuracy: 0.84375
+Iteration 7/15 result --- loss: 0.5851614475250244 accuracy: 0.8125
+Iteration 8/15 result --- loss: 0.4360958933830261 accuracy: 0.8983050584793091
+Iteration 9/15 result --- loss: 0.40028688311576843 accuracy: 0.9375
+Iteration 10/15 result --- loss: 0.40450677275657654 accuracy: 0.90625
+Iteration 11/15 result --- loss: 0.4726821184158325 accuracy: 0.84375
+Iteration 12/15 result --- loss: 0.7546188831329346 accuracy: 0.765625
+Iteration 13/15 result --- loss: 0.6363844275474548 accuracy: 0.828125
+Iteration 14/15 result --- loss: 0.32454803586006165 accuracy: 0.9375
+Validation Result 9/12 result --- loss: 2.3953827619552612 accuracy: 0.32349200546741486
+Epoch 10/12 start
+Iteration 0/15 result --- loss: 0.4706065356731415 accuracy: 0.90625
+Iteration 1/15 result --- loss: 0.4690123200416565 accuracy: 0.90625
+Iteration 2/15 result --- loss: 0.3314312696456909 accuracy: 0.953125
+Iteration 3/15 result --- loss: 0.5666964054107666 accuracy: 0.90625
+Iteration 4/15 result --- loss: 0.4372403025627136 accuracy: 0.90625
+Iteration 5/15 result --- loss: 0.46129316091537476 accuracy: 0.890625
+Iteration 6/15 result --- loss: 0.4743387997150421 accuracy: 0.90625
+Iteration 7/15 result --- loss: 0.5035987496376038 accuracy: 0.875
+Iteration 8/15 result --- loss: 0.371795654296875 accuracy: 0.921875
+Iteration 9/15 result --- loss: 0.33351781964302063 accuracy: 0.8983050584793091
+Iteration 10/15 result --- loss: 0.28159505128860474 accuracy: 0.984375
+Iteration 11/15 result --- loss: 0.28790196776390076 accuracy: 0.9375
+Iteration 12/15 result --- loss: 0.28467047214508057 accuracy: 0.9375
+Iteration 13/15 result --- loss: 0.5209959149360657 accuracy: 0.859375
+Iteration 14/15 result --- loss: 0.5062922239303589 accuracy: 0.890625
+Validation Result 10/12 result --- loss: 3.061246395111084 accuracy: 0.2890625
+Epoch 11/12 start
+Iteration 0/15 result --- loss: 0.2457849681377411 accuracy: 0.921875
+Iteration 1/15 result --- loss: 0.4117913246154785 accuracy: 0.921875
+Iteration 2/15 result --- loss: 0.3552781045436859 accuracy: 0.921875
+Iteration 3/15 result --- loss: 0.24745455384254456 accuracy: 0.953125
+Iteration 4/15 result --- loss: 0.4264443516731262 accuracy: 0.921875
+Iteration 5/15 result --- loss: 0.2996388375759125 accuracy: 0.921875
+Iteration 6/15 result --- loss: 0.34700286388397217 accuracy: 0.921875
+Iteration 7/15 result --- loss: 0.34620678424835205 accuracy: 0.890625
+Iteration 8/15 result --- loss: 0.2928342819213867 accuracy: 0.9375
+Iteration 9/15 result --- loss: 0.22254449129104614 accuracy: 0.953125
+Iteration 10/15 result --- loss: 0.20689146220684052 accuracy: 0.9322034120559692
+Iteration 11/15 result --- loss: 0.21252980828285217 accuracy: 1
+Iteration 12/15 result --- loss: 0.23177891969680786 accuracy: 0.96875
+Iteration 13/15 result --- loss: 0.15862888097763062 accuracy: 0.984375
+Iteration 14/15 result --- loss: 0.35434451699256897 accuracy: 0.90625
+Validation Result 11/12 result --- loss: 2.3725769221782684 accuracy: 0.3604651167988777
+create a result "5wbqiduc" for plugin "@pipcook/plugins-image-classification-tfjs-model-train@1.1.5"
+start loading plugin @pipcook/plugins-image-classification-tfjs-model-evaluate
+@pipcook/plugins-image-classification-tfjs-model-evaluate plugin is loaded
+Evaluate Result: loss: 2.338722066445784 accuracy: 0.375
+create a result "z7kg97rb" for plugin "@pipcook/plugins-image-classification-tfjs-model-evaluate@1.1.2"
