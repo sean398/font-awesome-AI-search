@@ -22,6 +22,7 @@ offscreenCanvas2.height = cutSize;
 const offscreenCtx2 = offscreenCanvas2.getContext("2d");
 
 function App() {
+  console.log(window.iconClassifierModel);
   function createImgs(type) {
     const rawList = [];
     const cutList = [];
